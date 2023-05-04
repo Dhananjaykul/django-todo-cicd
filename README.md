@@ -36,3 +36,42 @@ $ python manage.py runserver
 Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
 
 Cheers and Happy Coding :)
+
+<span style="font-size:24px">Project Name </span>
+Building a Scalable and Fault-tolerant Kubernetes Cluster on AWS with Minikube
+
+Project Description
+This project aims to build a fault-tolerant Kubernetes cluster on AWS using Minikube, which is designed to be a lightweight and easy-to-install version of Kubernetes. Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.
+
+This project focuses on building a production-like Kubernetes cluster on AWS that can tolerate the failure of nodes in the cluster without loss of service. It also involves setting up a scalable infrastructure that can effectively handle the growing amount of traffic.
+
+Project Architecture
+The project architecture includes the following components:
+
+AWS EC2 instances for Kubernetes cluster
+AWS Elastic Load Balancer (ELB) for load balancing
+AWS Route 53 for DNS management
+Minikube for Kubernetes cluster setup
+Getting Started
+To get started with this project:
+
+Clone this repository to your local machine using git clone <repo-link>.
+Create an AWS account and configure your AWS CLI.
+Install Minikube and start a Kubernetes cluster using minikube start.
+Update the kubeconfig file to connect to your new cluster.
+Run the kubectl commands to create a Kubernetes deployment and service.
+Test the application by accessing the ELB URL or the Kubernetes service IP.
+Prerequisites
+To get started with this project, you will need:
+
+An AWS account and access keys
+AWS CLI installed on your local machine
+Minikube installed on your local machine
+Kubernetes CLI (kubectl) installed on your local machine
+Authors
+Dhananjay Kulkarni (@dhananjaykulkarni)
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+Acknowledgments
+Kubernetes documentation and community for the wealth of knowledge and support.
